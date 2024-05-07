@@ -43,9 +43,9 @@ echo "source $(dpkg -L zsh-autosuggestions | grep 'zsh$')" | tee -a ~/.zshrc
 echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" | tee -a ~/.zshrc
 chsh -s $(which zsh)
 wget https://github.com/cavaros/kde-autodark/releases/latest/download/autodark_0.1alpha-1.deb
-sudo apt install -y autodark_0.1alpha-1.deb
+sudo apt install -y ./autodark_0.1alpha-1.deb
 wget https://github.com/cavaros/pyqt6/releases/latest/download/systemd-gui_0.1alpha-1.deb
-sudo apt install -y systemd-gui_0.1alpha-1.deb
+sudo apt install -y ./systemd-gui_0.1alpha-1.deb
 wget https://github.com/cavaros/KDE-DynamicThemeGenerator/releases/latest/download/dynamic-theme-generator_0.1alpha-1.deb
-sudo apt install -y dynamic-theme-generator_0.1alpha-1.deb
+sudo apt install -y ./dynamic-theme-generator_0.1alpha-1.deb
 
