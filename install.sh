@@ -8,7 +8,7 @@ git clone https://github.com/Antynea/grub-btrfs.git /home/$USER/grub-btrfs
 cd /home/$USER/grub-btrfs
 sudo make install
 cd ~
-sudo apt install -y htop ssh python3-venv ktorrent kget speedtest-cli firefox -y
+sudo apt install -y htop ssh python3-venv ktorrent kget speedtest-cli -y
 curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 sudo npm i -g npm yarn vercel
